@@ -49,8 +49,8 @@ def countfiles(dictfiles, lsttokens, repo):
                 shaDetails, ct = github_auth(shaUrl, lsttokens, ct)
 
                 # MY CODE START
-                if not shaDetails or "files" not in shaDetails:
-                    continue
+                # if not shaDetails or "files" not in shaDetails:
+                #     continue
                 # MY CODE END
 
                 filesjson = shaDetails['files']
